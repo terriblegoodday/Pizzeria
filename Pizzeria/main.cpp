@@ -30,9 +30,7 @@ public:
         large,
         xlarge
     };
-    
-    typedef vector<pair<Ingredient, size_t>> IngredientsList;
-    
+        
 protected:
     map<Ingredient, size_t> ingredients;
     Size size;
